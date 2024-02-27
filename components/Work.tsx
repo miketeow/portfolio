@@ -1,13 +1,9 @@
 "use client";
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Pagination } from "swiper/modules";
 import Link from "next/link";
 import React from "react";
 import { Button } from "./ui/button";
 import ProjectCard from "./ProjectCard";
-import { Swiper, SwiperSlide } from "swiper/react";
+
 import {
   Carousel,
   CarouselContent,
@@ -15,7 +11,6 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./ui/carousel";
-import { Card, CardHeader } from "./ui/card";
 
 type projectData = {
   image: string;
