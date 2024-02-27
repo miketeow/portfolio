@@ -1,9 +1,9 @@
-import About from "@/components/About";
-import Cta from "@/components/Cta";
 import Hero from "@/components/Hero";
-import Review from "@/components/Review";
+import About from "@/components/About";
 import Services from "@/components/Services";
 import Work from "@/components/Work";
+import Review from "@/components/Review";
+import Cta from "@/components/Cta";
 
 export default function Home() {
   return (

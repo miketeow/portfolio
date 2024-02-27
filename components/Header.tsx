@@ -4,11 +4,9 @@ import ThemeToggler from "./theme-toggler";
 import Logo from "./Logo";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
-import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [header, setHeader] = useState(false);
-  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
